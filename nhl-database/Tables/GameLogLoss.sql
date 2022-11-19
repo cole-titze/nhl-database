@@ -8,4 +8,5 @@
     bet365LogLoss FLOAT NOT NULL DEFAULT 0,
     modelLogLoss FLOAT NOT NULL DEFAULT 0,
     PRIMARY KEY(gameId),
+    FOREIGN KEY (gameId) REFERENCES Game(id),
 );
