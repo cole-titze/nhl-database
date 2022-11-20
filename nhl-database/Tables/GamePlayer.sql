@@ -7,5 +7,4 @@ CREATE TABLE [dbo].[GamePlayer]
     CONSTRAINT PK_GamePlayer PRIMARY KEY(gameId,playerId),
     FOREIGN KEY (gameId) REFERENCES Game(id),
     FOREIGN KEY (teamId) REFERENCES Team(id),
-    FOREIGN KEY (playerId,seasonStartYear) REFERENCES PlayerValue(id,seasonStartYear),
 );
