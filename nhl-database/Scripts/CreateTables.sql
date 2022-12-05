@@ -153,4 +153,10 @@ CREATE TABLE [dbo].[GamePlayer]
     FOREIGN KEY (playerId,seasonStartYear) REFERENCES PlayerValue(id,seasonStartYear),
 );
 
+CREATE TABLE [dbo].[SeasonGameCount]
+(
+	[seasonId] INT NOT NULL,
+	[gameCount] INT NOT NULL,
+)
+
 GO
