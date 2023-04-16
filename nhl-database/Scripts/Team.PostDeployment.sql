@@ -38,7 +38,7 @@ IF NOT EXISTS (SELECT * FROM dbo.TEAM)
 	(24, 'ANA', 'Anaheim', 'Ducks', 'Ducks.svg'),
 	(25, 'DAL', 'Dallas', 'Stars', 'Stars.svg'),
 	(26, 'LAK', 'Los Angeles', 'Kings', 'Kings.svg'),
-	(27, 'PHX', 'Phoenix', 'Phoenix Coyotes', 'PhoenixCoyotes.svg'),
+	(27, 'PHX', 'Phoenix', 'Coyotes', 'PhoenixCoyotes.svg'),
 	(28, 'SJS', 'San Jose', 'Sharks', 'Sharks.svg'),
 	(29, 'CBJ', 'Columbus', 'Blue Jackets', 'BlueJackets.svg'),
 	(30, 'MIN', 'Minnesota', 'Wild', 'Wild.svg'),
