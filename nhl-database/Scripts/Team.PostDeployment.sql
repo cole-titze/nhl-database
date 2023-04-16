@@ -38,7 +38,7 @@ IF NOT EXISTS (SELECT * FROM dbo.TEAM)
 	(24, 'ANA', 'Anaheim', 'Ducks', 'https://nhllogos.blob.core.windows.net/nhl-logos/Ducks.png'),
 	(25, 'DAL', 'Dallas', 'Stars', 'https://nhllogos.blob.core.windows.net/nhl-logos/Stars.png'),
 	(26, 'LAK', 'Los Angeles', 'Kings', 'https://nhllogos.blob.core.windows.net/nhl-logos/Kings.png'),
-	(27, 'PHX', 'Phoenix', 'Coyotes', 'https://nhllogos.blob.core.windows.net/nhl-logos/PhoenixCoyotes.png'),
+	(27, 'PHX', 'Phoenix', 'Phoenix Coyotes', 'https://nhllogos.blob.core.windows.net/nhl-logos/PhoenixCoyotes.png'),
 	(28, 'SJS', 'San Jose', 'Sharks', 'https://nhllogos.blob.core.windows.net/nhl-logos/Sharks.png'),
 	(29, 'CBJ', 'Columbus', 'Blue Jackets', 'https://nhllogos.blob.core.windows.net/nhl-logos/BlueJackets.png'),
 	(30, 'MIN', 'Minnesota', 'Wild', 'https://nhllogos.blob.core.windows.net/nhl-logos/Wild.png'),
